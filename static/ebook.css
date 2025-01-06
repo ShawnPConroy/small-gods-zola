@@ -1,0 +1,75 @@
+@import url('https://fonts.cdnfonts.com/css/ptolemy');
+
+body {
+    font-family: 'Ptolemy', Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif; ;
+    font-size: x-large;
+    background-color: #FCF5E5;
+    /* parchment https://htmlcolorcodes.com/colors/parchment/ */
+    color: #36454F;
+        /* https://htmlcolorcodes.com/colors/charcoal/ */
+
+    margin: 0;
+    line-height: 2;
+}
+
+nav {
+    background-color:  #36454F;
+    /* https://htmlcolorcodes.com/colors/charcoal/ */
+    color: #FCF5E5;
+    /* parchment https://htmlcolorcodes.com/colors/parchment/ */
+    display: flex;
+    padding: 3px;
+    gap: 1em;
+    :any-link {
+        text-decoration: none;
+        color: #FCF5E5;
+        /* parchment https://htmlcolorcodes.com/colors/parchment/ */
+    
+    }
+}
+
+header {
+    min-height: 50dvh;
+    text-align: center;
+    align-content: center;
+    background-color:  #36454F;
+    /* https://htmlcolorcodes.com/colors/charcoal/ */
+    color: #FCF5E5;
+    /* parchment https://htmlcolorcodes.com/colors/parchment/ */
+}
+
+
+main {
+    >section {
+        /* outline: solid 1px black; */
+        min-height: 100dvh;
+        display: grid;
+        max-width: 100ch;
+        margin: auto;
+        /* grid-template-columns: 1fr 1fr; */
+
+        div {
+            align-content: center;
+            /* outline: solid 1px black; */
+            padding: 1em;
+        }
+    }
+
+
+}
+
+
+h1, h2 {
+    font-weight: normal;
+}
+
+
+ruby {
+    color: rebeccapurple;
+    text-decoration: overline;
+    text-decoration-line: rebeccapurple;
+    
+    rt {
+        text-justify: none;
+    }
+}

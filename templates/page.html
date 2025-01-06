@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ get_url(path='/ebook.css') }}">
+</head>
+
+<body>
+
+<nav>
+    <a href="{{ get_url(path='/') }}"><strong>Deities</strong></a>
+    <a href="{{ get_url(path='aesops-fables') }}">Aesop's Fable</a>
+    <a href="{{ get_url(path='ancient-greece') }}">Ancient Greece</a>
+    <a href="{{ get_url(path='maui') }}">Māui</a>
+    <!-- <a href=""></a> -->
+</nav>    
+<header>
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.description }}</em></p>
+</header>
+
+<main>
+
+{{ page.content | safe }}
+
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -2,14 +2,14 @@
 base_url = "https://mywebsite.com"
 
 # The site title and description; used in feeds by default.
-title = ""
-description = ""
+title = "Small Gods"
+description = "Description of mythological creatures"
 
 # The default language; used in feeds.
 default_language = "en"
 
 # The site theme to use.
-theme = ""
+theme = "zola-uncouth-theme"
 
 # For overriding the default output directory `public`, set it to another value (e.g.: "docs")
 output_dir = "public"
@@ -56,7 +56,7 @@ feed_filenames = ["atom.xml"]
 hard_link_static = false
 
 # The default author for pages
-author = 
+author = ""
 
 # The taxonomies to be rendered for the site and their configuration of the default languages
 # Example:
@@ -130,10 +130,10 @@ skip_anchor_prefixes = [
 ]
 
 # Treat internal link problems as either "error" or "warn", default is "error"
-internal_level = "error"
+internal_level = "warn"
 
 # Treat external link problems as either "error" or "warn", default is "error"
-external_level = "error"
+external_level = "warn"
 
 # Various slugification strategies, see below for details
 # Defaults to everything being a slug
