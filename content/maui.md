@@ -5,10 +5,8 @@ title = "Māui"
 
 
 <section>
-    <div>
-
-    </div>
-    <div>
+<div></div>
+<div>
 
 ## Birth
 
@@ -29,16 +27,15 @@ Later at night Māui saw them dancing and being merry. He crept in and sat down 
     of the family. Some of the brothers were jealous, but the eldest addressed the others as follows:
 
 
-<blockquote>
-    Never mind; let him be our dear brother. In the days of peace remember the proverb, 'When you are
-        on friendly terms, settle your disputes in a friendly way; when you are at war, you must redress
-        your injuries by violence.' It is better for us, brothers, to be kind to other people. These are
-        the ways by which men gain influence – by laboring for an abundance of food to feed others, by
-        collecting property to give to others, and by similar means by which you promote the good of
-        others.
-    <cite>
-        — Polynesian Mythology (1854)</cite>
-</blockquote>
+> Never mind; let him be our dear brother. In the days of peace remember the proverb, 'When you are
+> on friendly terms, settle your disputes in a friendly way; when you are at war, you must redress
+> your injuries by violence.' It is better for us, brothers, to be kind to other people. These are
+> the ways by which men gain influence – by laboring for an abundance of food to feed others, by
+> collecting property to give to others, and by similar means by which you promote the good of
+> others.
+> 
+> <cite>— Polynesian Mythology (1854)</cite>
+
 
 ## Quest to find his parents
 
@@ -176,5 +173,5 @@ Then he readied himself, winding the cord of his battle club tightly around his 
     are mortal. The goddess keeps her position at the portal to the underworld through which all humans
     must travel.
 
-    </div>
+</div>
 </section>
